@@ -1,0 +1,63 @@
+# Site Settings
+title: "Turdıbek Jumabaev"
+description: "Personal blog about technology, programming, and life"
+author: "Turdıbek Jumabaev"
+email: your-email@example.com
+url: "" # Your site URL (e.g., https://turdibekme.github.io)
+baseurl: "" # Subpath if hosted on GitHub Pages (e.g., /blog)
+
+# Build Settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:year/:month/:day/:title/
+
+# Kramdown settings for better code blocks
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: false
+
+# Pagination
+paginate: 6
+paginate_path: "/blog/page:num/"
+
+# Collections
+collections:
+  posts:
+    output: true
+
+# Default front matter
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Turdıbek Jumabaev"
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-sitemap
+
+# Exclude from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - README.md
+  - LICENSE
+
+# Social links (customize as needed)
+social:
+  github: erinshek
+  linkedin: turdibek
+  telegram: erinshek
+
+# Reading time calculation (words per minute)
+words_per_minute: 200

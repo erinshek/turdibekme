@@ -1,0 +1,228 @@
+/* ===================================
+   Syntax Highlighting (VS Code Dark+ Theme)
+   =================================== */
+
+/* Code block wrapper */
+.highlight {
+  margin: var(--space-8) 0;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.highlight pre {
+  margin: 0;
+  padding: var(--space-6);
+  background-color: #1e1e1e;
+  overflow-x: auto;
+}
+
+.highlight code {
+  font-family: var(--font-mono);
+  font-size: var(--text-sm);
+  line-height: 1.6;
+  color: #d4d4d4;
+  background: transparent;
+  padding: 0;
+}
+
+/* Rouge/Pygments Token Colors */
+.highlight .c,
+.highlight .c1,
+.highlight .cm,
+.highlight .cs {
+  color: #6a9955; /* Comments - green */
+  font-style: italic;
+}
+
+.highlight .k,
+.highlight .kc,
+.highlight .kd,
+.highlight .kn,
+.highlight .kp,
+.highlight .kr,
+.highlight .kt {
+  color: #569cd6; /* Keywords - blue */
+}
+
+.highlight .s,
+.highlight .s1,
+.highlight .s2,
+.highlight .sb,
+.highlight .sc,
+.highlight .sd,
+.highlight .se,
+.highlight .sh,
+.highlight .si,
+.highlight .sx,
+.highlight .sr,
+.highlight .ss {
+  color: #ce9178; /* Strings - orange */
+}
+
+.highlight .na,
+.highlight .nb,
+.highlight .nc,
+.highlight .nd,
+.highlight .ne,
+.highlight .nf,
+.highlight .ni,
+.highlight .nl,
+.highlight .nn,
+.highlight .no,
+.highlight .nt,
+.highlight .nv,
+.highlight .nx {
+  color: #4ec9b0; /* Names - teal */
+}
+
+.highlight .m,
+.highlight .mi,
+.highlight .mf,
+.highlight .mh,
+.highlight .mo,
+.highlight .il {
+  color: #b5cea8; /* Numbers - light green */
+}
+
+.highlight .o,
+.highlight .ow {
+  color: #d4d4d4; /* Operators */
+}
+
+.highlight .p {
+  color: #d4d4d4; /* Punctuation */
+}
+
+.highlight .err {
+  color: #f44747; /* Errors - red */
+}
+
+.highlight .gh,
+.highlight .gu {
+  color: #569cd6; /* Generic headings */
+  font-weight: bold;
+}
+
+.highlight .gd {
+  color: #f44747; /* Deleted - red */
+  background-color: rgba(244, 71, 71, 0.1);
+}
+
+.highlight .gi {
+  color: #6a9955; /* Inserted - green */
+  background-color: rgba(106, 153, 85, 0.1);
+}
+
+.highlight .ge {
+  font-style: italic;
+}
+
+.highlight .gs {
+  font-weight: bold;
+}
+
+/* Language-specific adjustments */
+
+/* Python */
+.highlight .bp { color: #4ec9b0; } /* Built-in pseudo */
+.highlight .fm { color: #dcdcaa; } /* Function magic */
+.highlight .vc { color: #9cdcfe; } /* Variable class */
+.highlight .vg { color: #9cdcfe; } /* Variable global */
+.highlight .vi { color: #9cdcfe; } /* Variable instance */
+
+/* JavaScript/TypeScript */
+.highlight .nx { color: #9cdcfe; } /* Name other */
+.highlight .kr { color: #c586c0; } /* Keyword reserved (async/await) */
+.highlight .kd { color: #569cd6; } /* Keyword declaration */
+
+/* HTML/XML */
+.highlight .nt { color: #569cd6; } /* Name tag */
+.highlight .na { color: #9cdcfe; } /* Name attribute */
+
+/* CSS */
+.highlight .nc { color: #d7ba7d; } /* Class name */
+.highlight .nn { color: #4ec9b0; } /* Namespace */
+.highlight .nd { color: #dcdcaa; } /* Decorator */
+
+/* Ruby */
+.highlight .ss { color: #b5cea8; } /* Symbol */
+
+/* Go */
+.highlight .kc { color: #569cd6; } /* Constant */
+
+/* Rust */
+.highlight .nf { color: #dcdcaa; } /* Function name */
+
+/* Shell/Bash */
+.highlight .nb { color: #dcdcaa; } /* Built-in */
+.highlight .nv { color: #9cdcfe; } /* Variable */
+
+/* JSON */
+.highlight .nl { color: #9cdcfe; } /* Name label (keys) */
+
+/* YAML */
+.highlight .l { color: #ce9178; } /* Literal */
+
+/* Diff */
+.highlight .gh { color: #569cd6; font-weight: bold; }
+.highlight .gd { color: #f44747; background: rgba(244, 71, 71, 0.15); }
+.highlight .gi { color: #6a9955; background: rgba(106, 153, 85, 0.15); }
+.highlight .gd .x { color: #f44747; }
+.highlight .gi .x { color: #6a9955; }
+
+/* Line numbers (if enabled) */
+.highlight .lineno {
+  color: #858585;
+  user-select: none;
+  padding-right: var(--space-4);
+  border-right: 1px solid #404040;
+  margin-right: var(--space-4);
+}
+
+/* Code block header (for language label) */
+.code-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--space-2) var(--space-4);
+  background-color: #2d2d2d;
+  border-bottom: 1px solid #404040;
+  font-family: var(--font-sans);
+  font-size: var(--text-xs);
+  color: #858585;
+}
+
+/* Inline code in text */
+:not(pre) > code {
+  color: #ce9178;
+  background-color: var(--color-bg-code);
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+
+/* Copy button styling (if added via JS) */
+.code-copy-btn {
+  position: absolute;
+  top: var(--space-2);
+  right: var(--space-2);
+  padding: var(--space-2) var(--space-3);
+  background-color: #2d2d2d;
+  color: #858585;
+  border: 1px solid #404040;
+  border-radius: 4px;
+  font-family: var(--font-sans);
+  font-size: var(--text-xs);
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity var(--transition-fast), background-color var(--transition-fast);
+}
+
+.highlight:hover .code-copy-btn {
+  opacity: 1;
+}
+
+.code-copy-btn:hover {
+  background-color: #404040;
+  color: #d4d4d4;
+}

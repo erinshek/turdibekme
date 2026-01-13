@@ -1,0 +1,37 @@
+{% assign posts = site.posts %}
+{% assign current_index = nil %}
+{% for post in posts %}
+  {% if post.url == page.url %}
+    {% assign current_index = forloop.index0 %}
+  {% endif %}
+{% endfor %}
+
+{% if current_index != nil %}
+  {% assign prev_index = current_index | plus: 1 %}
+  {% assign next_index = current_index | minus: 1 %}
+
+  {% assign prev_post = posts[prev_index] %}
+  {% assign next_post = posts[next_index] %}
+
+  {% if prev_post or next_post %}
+  <nav class="post-navigation" aria-label="Post navigation">
+    {% if prev_post %}
+    <a href="{{ prev_post.url | relative_url }}" class="nav-prev" rel="prev">
+      <span class="nav-label">Previous</span>
+      <span class="nav-title">{{ prev_post.title }}</span>
+    </a>
+    {% else %}
+    <span class="nav-prev nav-placeholder"></span>
+    {% endif %}
+
+    {% if next_post %}
+    <a href="{{ next_post.url | relative_url }}" class="nav-next" rel="next">
+      <span class="nav-label">Next</span>
+      <span class="nav-title">{{ next_post.title }}</span>
+    </a>
+    {% else %}
+    <span class="nav-next nav-placeholder"></span>
+    {% endif %}
+  </nav>
+  {% endif %}
+{% endif %}

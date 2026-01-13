@@ -1,0 +1,22 @@
+<div class="video-container">
+  {% if include.video %}
+  <iframe
+    src="https://player.twitch.tv/?video={{ include.video }}&parent={{ site.url | remove: 'https://' | remove: 'http://' }}&autoplay=false"
+    title="{{ include.title | default: 'Twitch video' }}"
+    frameborder="0"
+    allowfullscreen
+    loading="lazy"
+  ></iframe>
+  {% elsif include.channel %}
+  <iframe
+    src="https://player.twitch.tv/?channel={{ include.channel }}&parent={{ site.url | remove: 'https://' | remove: 'http://' }}&autoplay=false"
+    title="{{ include.title | default: 'Twitch channel' }}"
+    frameborder="0"
+    allowfullscreen
+    loading="lazy"
+  ></iframe>
+  {% endif %}
+</div>
+{% if include.caption %}
+<p class="video-caption">{{ include.caption }}</p>
+{% endif %}

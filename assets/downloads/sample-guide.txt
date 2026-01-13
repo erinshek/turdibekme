@@ -1,0 +1,96 @@
+================================================================================
+                        SAMPLE DOWNLOADABLE GUIDE
+                        Jekyll Blog Starter Kit
+================================================================================
+
+Welcome! This is a sample downloadable file to demonstrate the file attachment
+feature of this Jekyll blog.
+
+TABLE OF CONTENTS
+-----------------
+1. Introduction
+2. Getting Started
+3. Writing Posts
+4. Adding Downloads
+5. Customization
+
+--------------------------------------------------------------------------------
+1. INTRODUCTION
+--------------------------------------------------------------------------------
+
+This Jekyll blog is designed with simplicity and readability in mind. It
+features:
+
+  - Clean, typography-focused design
+  - Code syntax highlighting
+  - Category and tag organization
+  - Downloadable file attachments
+  - Responsive layout
+
+--------------------------------------------------------------------------------
+2. GETTING STARTED
+--------------------------------------------------------------------------------
+
+Prerequisites:
+  - Ruby (>= 2.7)
+  - Bundler gem
+
+Installation:
+  1. Clone the repository
+  2. Run: bundle install
+  3. Run: bundle exec jekyll serve
+  4. Open: http://localhost:4000
+
+--------------------------------------------------------------------------------
+3. WRITING POSTS
+--------------------------------------------------------------------------------
+
+Create posts in the _posts directory with this format:
+  YYYY-MM-DD-title-of-post.md
+
+Example frontmatter:
+  ---
+  layout: post
+  title: "Your Title"
+  description: "Brief description"
+  date: 2025-01-13 10:00:00 +0000
+  categories: [Category1]
+  tags: [tag1, tag2]
+  downloads:
+    - file: sample-guide.txt
+      title: "Sample Guide"
+  ---
+
+--------------------------------------------------------------------------------
+4. ADDING DOWNLOADS
+--------------------------------------------------------------------------------
+
+To add downloadable files:
+
+  1. Place files in /assets/downloads/
+  2. Add to post frontmatter:
+
+     downloads:
+       - file: filename.pdf
+         title: "Display Title"
+         description: "Optional description"
+
+  3. Or use inline link:
+     [Download]({{ '/assets/downloads/file.pdf' | relative_url }})
+
+--------------------------------------------------------------------------------
+5. CUSTOMIZATION
+--------------------------------------------------------------------------------
+
+Key files to customize:
+  - _config.yml      : Site settings
+  - index.html       : Home page hero
+  - assets/css/      : Styles
+  - _includes/       : Components
+
+================================================================================
+                              END OF DOCUMENT
+================================================================================
+
+Created: January 2025
+Version: 1.0
