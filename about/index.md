@@ -1,14 +1,17 @@
 ---
 layout: page
-title: About Me
-description: Learn more about Turdıbek Jumabaev
+title: 
 ---
 
-# Hello, I'm Turdıbek
+# Sálem, men Turdıbek
 
-I'm a software engineer passionate about building elegant solutions to complex problems. With a focus on clean code and user-centric design, I strive to create software that makes a difference.
+Ózim haqqında kóp aytqım kelip turǵanjoq, keynenlew asıqpay aytıp berermen. Házirshe aytatuǵın zattıń ózi joǵaw.
 
-## What I Do
+Bazı waqıtları uzınlaw gáp aytqım kelse internettegi norm platformalardı musrǵa toltırmayın dep ózime sayt ashıp aldım.
+
+Aldınnan aytıp qoyayın, men maqala yamasa post jazıp atırman demeymen. Jazǵanlarıma ápiwayı tekst dep qoyaberiń.
+
+<!-- ## What I Do
 
 I specialize in full-stack development, with experience across various technologies and frameworks. My work spans from designing robust backend systems to crafting intuitive user interfaces.
 
@@ -49,4 +52,4 @@ Feel free to reach out if you'd like to collaborate on a project, discuss ideas,
 
 ---
 
-Thanks for visiting my corner of the internet. Feel free to explore my [blog](/blog/) where I share my thoughts on technology, programming, and more.
+Thanks for visiting my corner of the internet. Feel free to explore my [blog](/blog/) where I share my thoughts on technology, programming, and more. -->

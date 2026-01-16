@@ -1,9 +1,8 @@
 # Site Settings
-title: "Turdıbek Jumabaev"
-description: "Personal blog about technology, programming, and life"
+title: "turdibek.me"
 author: "Turdıbek Jumabaev"
 email: your-email@example.com
-url: "" # Your site URL (e.g., https://turdibekme.github.io)
+url: "https://turdibek.me" # Custom domain
 baseurl: "" # Subpath if hosted on GitHub Pages (e.g., /blog)
 
 # Build Settings
@@ -35,7 +34,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      author: "Turdıbek Jumabaev"
+      author: "Turdıbek"
 
 # Plugins
 plugins:
