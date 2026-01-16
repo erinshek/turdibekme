@@ -3,7 +3,7 @@ layout: post
 title: "Sanlasıwǵa tayyar bolmaǵan qaraqalpaq tili"
 date: 2026-01-16
 tags: [til]
-is_visible: true
+is_visible: false
 ---
 
 Sanlı qurılmalar búginimizdiń ajralmas bólegi, bunı hesh kim aytpasada ózimiz júdá jaqsı túsinemiz. Hár bir mámleket, hár bir millet sanlasıw háreketinde. Usı qatarda qaraqalpaq tilin sanlastırıwǵada háreket qılınıp atır(ǵan shıǵar).
