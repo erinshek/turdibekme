@@ -58,7 +58,7 @@
     'g': 'г', 'ǵ': 'ғ', 'h': 'ҳ', 'x': 'х', 'ı': 'ы', 'i': 'и',
     'j': 'ж', 'k': 'к', 'q': 'қ', 'l': 'л', 'm': 'м', 'n': 'н',
     'ń': 'ң', 'o': 'о', 'ó': 'ө', 'p': 'п', 'r': 'р', 's': 'с',
-    't': 'т', 'u': 'у', 'ú': 'ү', 'v': 'б', 'w': 'ў', 'y': 'й',
+    't': 'т', 'u': 'у', 'ú': 'ү', 'v': 'в', 'w': 'ў', 'y': 'й',
     'z': 'з', 'c': 'ц'
   };
 
@@ -138,7 +138,7 @@
   /**
    * Elements/tags to skip during conversion
    */
-  const SKIP_TAGS = ['CODE', 'PRE', 'SCRIPT', 'STYLE', 'TEXTAREA', 'INPUT', 'SVG'];
+  const SKIP_TAGS = ['CODE', 'PRE', 'SCRIPT', 'STYLE', 'TEXTAREA', 'INPUT', 'SVG', 'A'];
 
   /**
    * Check if element or its parents should be skipped
