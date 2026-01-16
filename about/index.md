@@ -7,7 +7,6 @@ title: "Sálem, men Turdıbek"
 
 Bazı waqıtları uzınlaw gáp aytqım kelse internettegi norm platformalardı musrǵa toltırmayın dep ózime sayt ashıp aldım.
 
-Aldınnan aytıp qoyayın, men maqala jazıp atırman demeymen. Jazǵanlarıma ápiwayı tekst dep qarayberiń. 
-Dım qattı mánili zat jazaman depte aytalmayman...
+Qattı paydalı yamasa mánili zat jazaman dep oylamayman. Jazǵanlarıma maqala dep emes, ápiwayı tekst dep qarayberiń...
 
 > Bazı waqıtları Telegram kanaldaǵı post qısqalıq etedi, sonıń ushın sayttı júrgiziwdi basladım.
