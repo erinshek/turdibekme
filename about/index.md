@@ -1,8 +1,7 @@
 ---
 layout: page
+title: "Sálem, men Turdıbek"
 ---
-
-# Sálem, men Turdıbek
 
 Ózim haqqında kóp aytqım kelip turǵanjoq, keynenlew asıqpay aytıp berermen. Házirshe aytatuǵın zattıń ózi joǵaw.
 
