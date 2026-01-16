@@ -2,7 +2,7 @@
 layout: post
 title: "Sanlasıwǵa tayyar bolmaǵan qaraqalpaq tili"
 description: "test ets"
-date: 2026-01-13
+date: 2026-01-16
 tags: [til, rawajlanıw]
 ---
 
