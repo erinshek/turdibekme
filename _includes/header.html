@@ -1,7 +1,7 @@
 <header class="site-header" role="banner">
   <div class="container">
     <nav class="site-nav" role="navigation" aria-label="Main navigation">
-      <a href="{{ '/' | relative_url }}" class="site-logo" data-no-convert>
+      <a href="{{ '/' | relative_url }}" class="site-logo">
         Turdıbek Writes
       </a>
 
@@ -12,11 +12,6 @@
       <ul class="nav-links">
         <li><a href="{{ '/blog/' | relative_url }}" {% if page.url contains '/blog' or page.layout == 'post' %}class="active"{% endif %}>Tekstler</a></li>
         <li><a href="{{ '/tags/' | relative_url }}" {% if page.url contains '/tags' %}class="active"{% endif %}>Tegler</a></li>
-        <li>
-          <button class="script-toggle-btn" type="button" aria-label="Convert to Cyrillic script" data-no-convert>
-            Кириллше
-          </button>
-        </li>
       </ul>
     </nav>
   </div>
