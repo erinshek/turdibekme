@@ -35,6 +35,7 @@ defaults:
     values:
       layout: "post"
       author: "Turdıbek"
+      is_visible: true
 
 # Plugins
 plugins:
