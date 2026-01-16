@@ -1,6 +1,5 @@
 ---
 layout: page
-title: 
 ---
 
 # Sálem, men Turdıbek
