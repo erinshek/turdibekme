@@ -53,11 +53,5 @@ exclude:
   - README.md
   - LICENSE
 
-# Social links (customize as needed)
-social:
-  github: erinshek
-  linkedin: turdibek
-  telegram: erinshek
-
 # Reading time calculation (words per minute)
 words_per_minute: 200

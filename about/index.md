@@ -9,4 +9,4 @@ Bazı waqıtları uzınlaw gáp aytqım kelse internettegi norm platformalardı 
 
 Qattı paydalı yamasa mánili zat jazaman dep oylamayman. Jazǵanlarıma maqala dep emes, ápiwayı tekst dep qarayberiń...
 
-> Bazı waqıtları Telegram kanaldaǵı post qısqalıq etedi, sonıń ushın sayttı júrgiziwdi basladım.
+Kerek bolsam hámme jerdemen: [Telegram](https://t.me/erinshek), [GitHub](https://github.com/erinshek), [LinkedIn](https://www.linkedin.com/in/turdibek), [YouTube](https://www.youtube.com/@miynetkesh)

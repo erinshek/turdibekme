@@ -463,52 +463,14 @@ hr::before {
   padding: var(--space-8) var(--space-6);
   border-top: 1px solid var(--color-border);
   background-color: var(--color-bg);
-}
-
-.footer-content {
-  max-width: var(--max-width-wide);
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: var(--space-6);
   text-align: center;
 }
 
-.footer-info {
+.site-footer p {
   font-family: var(--font-sans);
   font-size: var(--text-sm);
   color: var(--color-text-muted);
-}
-
-.footer-info p {
-  margin-bottom: 0;
-}
-
-.footer-description {
-  display: none;
-}
-
-.footer-links {
-  display: flex;
-  gap: var(--space-6);
-}
-
-.footer-links a {
-  color: var(--color-text-muted);
-  text-decoration: none;
-  transition: color 0.3s ease, transform 0.3s ease;
-}
-
-.footer-links a:hover {
-  color: var(--color-accent);
-  transform: translateY(-2px);
-}
-
-.footer-links .icon {
-  width: 20px;
-  height: 20px;
+  margin: 0;
 }
 
 /* Minimal footer for hero pages */
@@ -1365,11 +1327,6 @@ body:has(.hero) .site-footer {
   }
 
   /* Footer */
-  .footer-content {
-    flex-direction: column;
-    text-align: center;
-  }
-
   /* Home */
   .home-intro {
     padding: var(--space-8) 0;
